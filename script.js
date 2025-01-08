@@ -192,12 +192,12 @@ Complete the exercise in the space below:
 */
 const convertTemperature = (temp, scale) => {
     if (scale === 'F') {
-        return temp = 5 / 9 * temp - 32;
+        return temp = 5 / 9 * temp - 32 +" Celsius";
 
     }
     else {
 
-        return temp = 9 / 5 * temp + 32;
+        return temp = 9 / 5 * temp + 32 +" Feherenhiet";
     }
 
 
